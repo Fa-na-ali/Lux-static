@@ -1,0 +1,705 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.navbar {
+    width: 100%;
+    height: 114.77px;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-sec {
+    width: 1439px;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 120px;
+    height: 69.77px;
+    margin-left: -5px;
+}
+
+.logo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.options {
+    width: 880.44px;
+    display: flex;
+    margin-left: -205px;
+
+
+}
+
+.options a {
+    margin-right: 40px;
+
+}
+
+.nav-sec a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #28183e;
+    font-family: Montserrat-SemiBold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1.8px;
+
+    position: relative;
+}
+
+
+.nav-sec a:before {
+    content: "";
+    position: absolute;
+    bottom: -5px;
+    width: 100%;
+    height: 3px;
+
+    background: radial-gradient(#E3BD9F, #cc7f45);
+    transform: scaleX(0);
+    transition: transform 0.3s ease-in-out;
+
+
+
+}
+
+.nav-sec a:hover:before {
+    transform: scaleX(1);
+}
+
+.drop-menu a {
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: #28183e;
+    font-family: Montserrat-SemiBold, Arial, sans-serif;
+    background-color: #FFFFFF;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: 1.8px;
+    list-style: none;
+    padding: 8px 0px 15px 15px;
+    width: 100%;
+    display: none;
+}
+
+.drop-down {
+    position: relative;
+
+
+}
+
+.drop-menu {
+    width: 190.33px;
+    height: 157px;
+    position: absolute;
+    margin-top: 8px;
+}
+
+.drop-down:hover .drop-menu a {
+    display: block;
+}
+
+.search {
+
+    margin-left: -120px;
+    
+
+}
+
+.search i {
+    color: #28183e;
+    font-size: 1.4rem;
+
+}
+
+button {
+    width: 122.94px;
+    height: 43px;
+    font-size: 1rem;
+    cursor:pointer;
+    text-transform: uppercase;
+    border-radius: 100px;
+    background-color: #E3BD9F;
+    border: 2px solid transparent;
+    color: #28183e;
+    font-weight: bold;
+    margin-left: 40px;
+    letter-spacing: 1.8px;
+
+    transition: all 0.4s ease;
+}
+
+button:hover {
+    background-color: #FFFFFF;
+    border: 2px solid #E3BD9F;
+}
+
+.first-row {
+    height: 71vh;
+    width: 100%;
+    display: flex;
+
+}
+
+.left-sec {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 53.4%;
+    height: 100%;
+    background-color: #5a0f4d;
+    padding-top: 140px;
+
+
+}
+
+.cursive {
+    width: 679.5px;
+    height: 50.8px;
+    font-size: 4rem;
+    color: #FFFFFF;
+    font-family: jalliestha;
+    margin-left: 60px;
+
+}
+
+.left-sec p {
+    font-size: 22px;
+    color: #FFFFFF;
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-size: 1.375rem;
+    line-height: 2.7rem;
+    opacity: 1;
+    margin-top: 36px;
+    margin-left: 60px;
+
+}
+
+.left-sec h3 {
+    width: 679.5px;
+    height: 54px;
+    color: #FFFFFF;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-size: 3rem;
+    line-height: 3.375rem;
+    margin-top: 60px;
+    margin-left: 60px;
+}
+
+.left-sec button {
+    width: 251px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 400;
+    margin-left: 60px;
+    margin-top: 50px;
+}
+
+.right-sec {
+    width: 46.6%;
+    height: 71vh;
+}
+
+.right-sec img {
+    width: 100%;
+    height: 88.5vh;
+    background-size: cover;
+}
+
+.second-row {
+    height: 100vh;
+    width: 100%;
+    padding: 60px;
+}
+
+.droplet-image {
+    height: 100px;
+    height: 100px;
+    margin-top: 190px;
+}
+
+.droplet-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.white-lilly img {
+    background-size: cover;
+    content: "";
+    display: block;
+    height: 400px;
+    pointer-events: none;
+    position: absolute;
+    right: 0;
+    top: 990px;
+    transform: rotate(-180deg);
+    width: 310px;
+}
+
+.heading {
+    width: 1200px;
+    height: 54px;
+    margin-top: 25px;
+
+}
+
+.heading h2 {
+    font-size: 3rem;
+    line-height: 3.375rem;
+    color: #28183e;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.all-grids {
+    display: flex;
+
+
+}
+
+.grid-one {
+    width: 550px;
+    height: 461.16px;
+    border: 1px solid #E3BD9F;
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+}
+
+.grid-image {
+    width: 288.33px;
+    height: 288.33px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.grid-image img {
+    width: 100%;
+    height: 100%;
+
+    background-size: cover;
+}
+
+.caption {
+    width: 552px;
+    height: 100px;
+    background-color: #E3BD9F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.caption a {
+    text-decoration: none;
+    color: #28183e;
+    font-size: 1.375rem;
+    line-height: 2.5rem;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    margin-left: 20px;
+
+
+}
+
+.arrow {
+    width: 36px;
+    height: 36px;
+    margin-right: 20px;
+}
+
+.bath {
+    margin-left: 15px;
+}
+
+.body-wash {
+    background-color: #C6A6CC;
+    margin-left: 15px;
+}
+
+.bath-body {
+    background-color: #A9D2A5;
+    margin-left: 15px;
+}
+
+.view-products {
+    width: 91vw;
+    height: 47px;
+    display: flex;
+    justify-content: center;
+    margin-top: 45px;
+
+}
+
+.view-products button {
+    width: 251px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.third-row {
+    margin-top: 105px;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: linear-gradient(101deg, #5a0f4d 8.22%, #200c32 48.42%, #220d3e 93.91%);
+
+}
+
+.heading-two {
+
+    text-align: center;
+    margin-top: 47px;
+}
+
+.heading-two h3 {
+    color: #F5CABF;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.375rem;
+
+}
+
+.video {
+    width: 1372.19px;
+    height: 760.53px;
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.video-image {
+    width: 100%;
+    height: 100%;
+    background-image: url("video-img.avif");
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.play {
+    width: 54px;
+    height: 54px;
+    border-radius: 50%;
+    background-color: rgb(36, 33, 33);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   cursor: pointer;
+}
+
+.play i {
+    font-size: 1.5rem;
+}
+
+.last-row {
+    width: 100vw;
+    height: 100vh;
+    background: #f5cabf;
+
+
+}
+
+.heading-last {
+    width: 100%;
+    height: 114px;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    margin-top: -860px;
+
+
+}
+
+.heading-last h3 {
+
+    height: 54px;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 3.375rem;
+
+}
+
+.inner-div img {
+    width: 50%;
+    height: 100%;
+
+
+}
+
+.flaw-less {
+    width: 750.5px;
+    height: 468.8px;
+    background: hsla(0, 0%, 100%, .7);
+    float: right !important;
+    padding: 60px;
+    margin-right: 75px;
+}
+
+.white-sec h4 {
+
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.125rem;
+    color: #28183e;
+    margin-left: 15px;
+}
+
+.white-sec p {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #28183e;
+    font-size: 1.2rem;
+    margin-top: 25px;
+    line-height: 35px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+}
+
+.fragrance-images {
+    display: flex;
+
+}
+
+.img-one {
+    background-image: url("fragrance.png");
+}
+
+.img-two {
+    background-image: url("oil.png");
+}
+
+.img-three {
+    background-image: url("long-lasting.png");
+}
+
+.first {
+    width: 109.59px;
+    height: 96px;
+
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    margin-left: 15px;
+}
+
+footer {
+    background-color: #f5cabf;
+}
+
+.view-details button {
+    width: 251px;
+    height: 47px;
+    font-style: normal;
+    font-weight: 400;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+.tothe-top {
+    width: 189px;
+    height: 54px;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.2rem;
+    margin-left: auto;
+    margin-top: -140px;
+    font-weight: 400;
+    color: rgb(40, 24, 62);
+    letter-spacing: 1.6px;
+    transition: all 0.4s ease 0s;
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    cursor: pointer;
+
+}
+
+.tothe-top i {
+    font-size: 1.2rem;
+
+}
+
+.footer-details {
+    display: flex;
+}
+
+.footer-image {
+    width: 120.64px;
+    height: 70.13px;
+    margin-top: 40px;
+    margin-left: 200px;
+    ;
+}
+
+.footer-image img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}
+
+.legal {
+    display: flex;
+    flex-direction: column;
+    margin-left: 267px;
+    margin-top: 40px;
+}
+
+.legal h2 {
+    color: #28183e;
+    font-size: 1rem;
+    font-family: Montserrat-Bold, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 1px;
+
+}
+
+.policy a {
+    text-decoration: none;
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #28183e;
+    margin-top: 16px;
+    letter-spacing: 1px;
+
+}
+
+.policy i {
+    color: #28183e;
+    font-size: 14px;
+}
+
+.policy {
+    margin-top: 24px;
+    display: flex;
+    flex-direction: column;
+}
+
+.help {
+    margin-left: 80px;
+}
+
+.location p {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 4++00;
+    color: #28183e;
+    letter-spacing: 1px;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: row;
+    margin-top: 24px;
+
+}
+
+.location a {
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    color: #28183e;
+    letter-spacing: 1px;
+    margin-left: 4px;
+    text-decoration: none;
+}
+
+.facebook {
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.facebook a {
+    margin-top: -2px;
+    margin-left: 10px;
+}
+
+.social {
+    margin-left: 282px;
+}
+
+.social-media {
+    margin-top: -13px;
+}
+
+.unilever-sec {
+    width: 100vw;
+    height: 141px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.unilever-image {
+    width: 40px;
+    height: 44px;
+   cursor: pointer;
+}
+
+.unilever-image img {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    margin-left: -15px;
+}
+
+.unilever-sec a {
+    text-decoration: none;
+    color: #28183e;
+    font-size: 15px;
+    line-height: normal;
+    font-family: Montserrat-Regular, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+
+
+}
+
+.umilever-sec i {
+    color: #28183e;
+    font-size: 14px;
+}
